@@ -40,7 +40,7 @@ nav a {
 }
 
 nav a:hover {
-    background: rgba(0,0,0,0.8);
+    background: rgba(255, 129, 129, 0.8);
 }
 
 .clearfix::after {
@@ -80,3 +80,24 @@ h2::first-letter{
     color: darkred;
 }
 
+.left-link,
+.right-link {
+    position: fixed;
+    top: 43vh;
+    font-size: 5em;
+}
+
+.left-link a,
+.right-link a {
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+}
+
+.left-link {
+    left: 0;
+}
+
+.right-link {
+    right: 0
+}

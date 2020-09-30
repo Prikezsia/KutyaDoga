@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+
+header{
+    background-image: ;
+}
+
+.wrapper {
+    max-width: 800px;
+    margin: 40px auto;
+}
+
+nav {
+    background: rgba(190,0,0,0.8);
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav>ul>li {
+    float: left;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+    display: block;
+}
+
+nav a:hover {
+    background: rgba(0,0,0,0.8);
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}

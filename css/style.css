@@ -2,8 +2,10 @@
     box-sizing: border-box;
 }
 
-header{
-    background-image: ;
+body{
+    margin: 0;
+    background: url("../Képek/hatter.jpg") no-repeat;
+    background-size: cover;
 }
 
 .wrapper {
@@ -12,11 +14,12 @@ header{
 }
 
 nav {
-    background: rgba(190,0,0,0.8);
+    background: rgba(190,0,0,0.7);
     position: sticky;
     top: 0;
     left: 0;
     right: 0;
+    margin: 10px;
 }
 
 nav ul {
@@ -50,4 +53,29 @@ nav a:hover {
     content: "";
     clear: both;
     display: table;
+}
+
+main{
+    background-color: white;
+    padding: 10px;
+    margin: 15px;
+}
+
+main img{
+    float: left;
+    margin-right: 10px;
+}
+
+main p {
+    line-height: 1.5em;
+}
+
+h1::first-letter{
+    font-size: 1.5em;
+    color: darkred;
+}
+
+h2::first-letter{
+    font-size: 1.5em;
+    color: darkred;
 }
